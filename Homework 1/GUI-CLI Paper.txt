@@ -1,0 +1,2 @@
+GUI vs. CLI
+GUI (graphical user interface) is the visual based layout of items such as the desktop, files, etc. on your computer screen. It is where you click, type, swipe, and generally interact with your computer. CLI (command line interface) is where you can read, modify, and write the coding behind the visuals on the computer screen and the computer's other functions. You could say it is the skeleton and the muscles of the computer, whereas the GUI is outward appearance.
