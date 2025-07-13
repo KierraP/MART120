@@ -14,3 +14,23 @@ p {
   color: #000000;
   font-size: 20px;
 }
+span.green{
+  color:rgb(42, 157, 122);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:30px;
+    }
+
+#Grey{
+        color:rgb(127, 124, 124);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size:30px;
+    }
+
+span.blackbackground{
+background-color:black
+}
+#whitetext{
+  color: white;
+  font-family: 'Garamond';
+  font-size:24px;
+}
