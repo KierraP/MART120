@@ -1,8 +1,6 @@
-
-  //character X & Y
 var characterX = 100;
 var characterY = 100;
-  //letter key codes
+
 var w = 87;
 var a = 83;
 var s = 65;
@@ -13,10 +11,10 @@ function setup() {
 
 }
 function draw() {
-background(101,66,97);
+background(0,0,0);
 createBorders(2);
 drawCharacter(200,350);
-characterMovement();
+moveCharacter();
 }
 
 
@@ -26,14 +24,12 @@ function createCharacter(x,y) {
   characterX = x;
   characterY = y;
 }
-
-
 function drawCharacter() {
-  fill(23,40,123);
+  fill(120,20,120);
   circle(characterX,characterY,25);
 }
 
-function characterMovement() {
+function moveCharacter() {
 if(keyIsDown(w))
   {characterY -= 10;
   }
@@ -50,12 +46,9 @@ if(keyIsDown(d))
 
 
 function createBorders() {
-  // top border
+  fill (176,200,70)
   rect (60,0,width,10);
-  // left border
   rect (0,0,10,height);
-  // bottom border
   rect (0, height-10,width,10);
-  // right border
   rect (width-10,0,10,height-0);
 }
