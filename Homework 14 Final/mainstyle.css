@@ -12,7 +12,7 @@ h1 {
 }
 
 h2 {
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: center;
   font-size: 30px;
 }
@@ -34,7 +34,7 @@ span.green{
     }
 
 #Grey{
-        color:rgb(255, 255, 255);
+        color:rgb(206, 109, 255);
         background-color: black;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font: size 40px;
@@ -52,7 +52,7 @@ background-color:black
 footer {
 background-color: black;
 font-size: 20;
-color: whitesmoke;
+color: rgb(206, 109, 255);
 text-align: center;
 margin: 0;
 }
